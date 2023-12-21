@@ -1,0 +1,22 @@
+import datetime
+now = datetime.datetime.now()
+
+while True:
+    text=input()
+    if text=='привет':
+        print('привет')
+        
+    elif text=='как дела':
+        print('хорошо')
+        
+    elif text=='какая сегодня погода':
+        print('+1 градус')
+        
+    elif text=='сколько время':
+        print(now)
+        
+    elif text=='расскажи анекдот':
+        print('буратино утонул')
+
+    elif text=='включи музыку':
+        print('ищите на https://music.yandex.ru/')
