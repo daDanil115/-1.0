@@ -1,4 +1,5 @@
 import datetime
+import webbrowser
 now = datetime.datetime.now()
 
 while True:
@@ -19,4 +20,4 @@ while True:
         print('буратино утонул')
 
     elif text=='включи музыку':
-        print('ищите на https://music.yandex.ru/')
+        webbrowser.open('https://music.yandex.ru/', new=2)
